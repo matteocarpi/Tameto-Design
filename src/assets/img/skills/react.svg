@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="49px" viewBox="0 0 54 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-29.6%" y="-27.1%" width="159.2%" height="154.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1211.000000, -1590.000000)">
+            <g id="SKILLS" transform="translate(1.000000, 1241.000000)">
+                <g id="Icone" transform="translate(659.000000, 208.000000)">
+                    <g id="download" filter="url(#filter-1)" transform="translate(556.043448, 139.655172)">
+                        <circle id="Oval" fill="#61DAFB" fill-rule="nonzero" cx="22.6489028" cy="23.9811912" r="3.9968652"></circle>
+                        <g id="Group" stroke="#61DAFB">
+                            <ellipse id="Oval" cx="21.9827586" cy="23.9811912" rx="21.9827586" ry="8.39341693"></ellipse>
+                            <ellipse id="Oval" transform="translate(21.982759, 23.981191) rotate(60.000000) translate(-21.982759, -23.981191) " cx="21.9827586" cy="23.9811912" rx="21.9827586" ry="8.39341693"></ellipse>
+                            <ellipse id="Oval" transform="translate(21.982759, 23.981191) rotate(120.000000) translate(-21.982759, -23.981191) " cx="21.9827586" cy="23.9811912" rx="21.9827586" ry="8.39341693"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

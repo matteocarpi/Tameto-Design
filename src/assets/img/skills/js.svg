@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icons8-javascript</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.3%" y="-27.3%" width="154.7%" height="154.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1212.000000, -1447.000000)" fill-rule="nonzero">
+            <g id="SKILLS" transform="translate(1.000000, 1241.000000)">
+                <g id="Icone" transform="translate(659.000000, 208.000000)">
+                    <g id="icons8-javascript" filter="url(#filter-1)" transform="translate(556.043448, 0.000000)">
+                        <polygon id="Path" fill="#FFD600" points="0 43.9655172 0 0 43.9655172 0 43.9655172 43.9655172"></polygon>
+                        <path d="M28.7461207,32.9094109 C29.5912356,34.2821121 30.5096264,35.5974138 32.4551006,35.5974138 C34.0891523,35.5974138 34.9464799,34.785273 34.9464799,33.6617098 C34.9464799,32.3170977 34.059842,31.8395833 32.2621408,31.0567529 L31.2765805,30.6366379 C28.4322557,29.4300287 26.5405172,27.9181034 26.5405172,24.7244971 C26.5405172,21.78125 28.79375,19.5414511 32.3146552,19.5414511 C34.8219109,19.5414511 36.6232759,20.4097701 37.9227011,22.6837644 L34.8524425,24.6463362 C34.1770833,23.439727 33.4467672,22.9646552 32.3146552,22.9646552 C31.1593391,22.9646552 30.4278017,23.69375 30.4278017,24.6463362 C30.4278017,25.8236351 31.1605603,26.2999282 32.8520115,27.029023 L33.8375718,27.4491379 C37.1899425,28.876796 39.0804598,30.3349856 39.0804598,33.6128592 C39.0804598,37.1447557 36.291092,39.0804598 32.5466954,39.0804598 C28.8841236,39.0804598 26.8043103,37.2424569 25.6465517,34.9672414 L28.7461207,32.9094109 Z M14.5965517,33.0095546 C15.2145115,34.1160201 16.1536638,34.9672414 17.5043822,34.9672414 C18.7964799,34.9672414 19.5402299,34.4567529 19.5402299,32.4721983 L19.5402299,19.5402299 L23.610704,19.5402299 L23.610704,33.0974856 C23.610704,37.2094828 21.2255747,39.0804598 17.7425287,39.0804598 C14.5953305,39.0804598 12.3237787,36.9481322 11.3980603,34.9672414 L14.5965517,33.0095546 Z" id="Shape" fill="#000001"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

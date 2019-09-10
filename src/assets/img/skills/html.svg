@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="57px" viewBox="0 0 52 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icons8-html-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.3%" y="-24.4%" width="154.7%" height="150.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-656.000000, -1447.000000)" fill-rule="nonzero">
+            <g id="SKILLS" transform="translate(1.000000, 1241.000000)">
+                <g id="Icone" transform="translate(659.000000, 208.000000)">
+                    <g id="icons8-html-5" filter="url(#filter-1)" transform="translate(0.000000, 0.000000)">
+                        <polygon id="Path" fill="#E65100" points="43.9655172 0 0 0 3.87931034 43.9655172 21.9827586 49.137931 40.0862069 43.9655172"></polygon>
+                        <polygon id="Path" fill="#FF6D00" points="21.9827586 3.87931034 21.9827586 45.1293103 36.4655172 40.9913793 39.6982759 3.87931034"></polygon>
+                        <path d="M21.9827586,25.862069 L21.9827586,20.6896552 L33.1034483,20.6896552 L32.1982759,35.5603448 L21.9827586,38.9224138 L21.9827586,33.4913793 L27.2844828,31.6810345 L27.6724138,25.862069 L21.9827586,25.862069 L21.9827586,25.862069 Z M33.4913793,15.5172414 L33.8793103,10.3448276 L21.9827586,10.3448276 L21.9827586,15.5172414 L33.4913793,15.5172414 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M21.9827586,33.4913793 L21.9827586,38.9224138 L11.7672414,35.5603448 L11.25,28.4482759 L16.4224138,28.4482759 L16.6810345,31.6810345 L21.9827586,33.4913793 Z M15.6465517,15.5172414 L21.9827586,15.5172414 L21.9827586,10.3448276 L10.2155172,10.3448276 L11.1206897,25.862069 L21.9827586,25.862069 L21.9827586,20.6896552 L16.0344828,20.6896552 L15.6465517,15.5172414 Z" id="Shape" fill="#EEEEEE"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
