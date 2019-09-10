@@ -12,3 +12,5 @@ class TitleSlide extends React.Component {
     )
   }
 }
+
+export default TitleSlide;

@@ -6,59 +6,76 @@
     "projects": [
       {
         "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
+        "logo": "/img/projects/berlin-shorts.svg",
+        "link": "https://berlinshorts.netlify.com"
       },
       {
-        "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
+        "name": "CEI",
+        "logo": "/img/projects/cei.svg",
+        "link": "https://cei.netlify.com"
       },
       {
-        "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
-      },
-      {
-        "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
-      },
-      {
-        "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
-      },
-      {
-        "name": "Berlin Shorts",
-        "logo": "",
-        "link": ""
+        "name": "Tommaso Cassinis",
+        "logo": "/img/projects/tommaso-cassinis.svg",
+        "link": "https://www.tommasocassinis.com"
       }
     ]
   },
   "skills": {
     "title": "Skills",
-    "icons": []
+    "skillList": [
+      {
+        "name": "html",
+        "icon": "/img/skills/html.svg"
+      },
+      {
+        "name": "illustrator",
+        "icon": "/img/skills/illustrator.svg"
+      },
+      {
+        "name": "js",
+        "icon": "/img/skills/js.svg"
+      },
+      {
+        "name": "css",
+        "icon": "/img/skills/css.svg"
+      },
+      {
+        "name": "photoshop",
+        "icon": "/img/skills/photoshop.svg"
+      },
+      {
+        "name": "react",
+        "icon": "/img/skills/react.svg"
+      },
+      {
+        "name": "sketch",
+        "icon": "/img/skills/sketch.svg"
+      }
+    ]
   },
   "contacts": {
     "title": "Contacts",
     "options": [
       {
         "name": "linkedin",
-        "icon": "",
+        "icon": "/img/contacts/linkedin.svg",
         "text": "Matteo Carpi",
+        "target": "_blank",
         "link": "https://www.linkedin.com/in/matteo-carpi"
       },
       {
         "name": "Git Hub",
-        "icon": "",
+        "icon": "/img/contacts/github.svg",
         "text": "matteocarpi",
+        "target": "_blank",
         "link": "https://github.com/matteocarpi"
       },
       {
         "name": "email",
-        "icon": "",
+        "icon": "/img/contacts/mail.svg",
         "text": "matteocarpi94@gmail.com",
+        "target": "_self",
         "link": "mailto:matteocarpi94@gmail.com"
       }
     ]
