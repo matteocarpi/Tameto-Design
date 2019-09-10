@@ -1,0 +1,66 @@
+{
+  "title": "Tameto Design",
+  "slogan": "Web design and development",
+  "portfolio": {
+    "title": "Portfolio",
+    "projects": [
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "name": "Berlin Shorts",
+        "logo": "",
+        "link": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "icons": []
+  },
+  "contacts": {
+    "title": "Contacts",
+    "options": [
+      {
+        "name": "linkedin",
+        "icon": "",
+        "text": "Matteo Carpi",
+        "link": "https://www.linkedin.com/in/matteo-carpi"
+      },
+      {
+        "name": "Git Hub",
+        "icon": "",
+        "text": "matteocarpi",
+        "link": "https://github.com/matteocarpi"
+      },
+      {
+        "name": "email",
+        "icon": "",
+        "text": "matteocarpi94@gmail.com",
+        "link": "mailto:matteocarpi94@gmail.com"
+      }
+    ]
+  }
+}
