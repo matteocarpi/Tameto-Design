@@ -59,21 +59,21 @@
     "options": [
       {
         "name": "linkedin",
-        "icon": "/img/contacts/linkedin.svg",
+        "icon": "fab fa-linkedin-in",
         "text": "Matteo Carpi",
         "target": "_blank",
         "link": "https://www.linkedin.com/in/matteo-carpi"
       },
       {
         "name": "Git Hub",
-        "icon": "/img/contacts/github.svg",
+        "icon": "fab fa-github",
         "text": "matteocarpi",
         "target": "_blank",
         "link": "https://github.com/matteocarpi"
       },
       {
         "name": "email",
-        "icon": "/img/contacts/mail.svg",
+        "icon": "far fa-envelope",
         "text": "matteocarpi94@gmail.com",
         "target": "_self",
         "link": "mailto:matteocarpi94@gmail.com"
