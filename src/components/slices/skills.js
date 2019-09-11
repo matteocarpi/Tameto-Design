@@ -15,14 +15,16 @@ class Skills extends React.Component {
       <section
         className={styles.wrap}
         id={this.props.id}>
-        <Title color="blue">Skills</Title>
-        <section className={styles.skillList}>
-          {skills.map((skill, index) => {
-            return (
-              <img className={styles.skill} alt={skill.name + " logo"} key={skill.name} src={skill.icon}/>
-            )
-          })}
-        </section>
+        <div className={styles.content}>
+          <Title color="blue">Skills</Title>
+          <section className={styles.skillList}>
+            {skills.map((skill, index) => {
+              return (
+                <img className={styles.skill} alt={skill.name + " logo"} key={skill.name} src={skill.icon}/>
+              )
+            })}
+          </section>
+        </div>
       </section>
     )
   }

@@ -1,7 +1,14 @@
 @import './variables.scss';
 
 .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: $yellow;
+  .content {
+    width: 100%;
+    max-width: 1200px;
+  }
 }
 .skillList {
   display: flex;
@@ -10,5 +17,10 @@
   .skill {
     margin: 2rem;
     width: 40px;
+  }
+}
+@media (min-width: 769px) {
+  .content {
+    margin-bottom: 2rem;
   }
 }

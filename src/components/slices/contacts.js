@@ -13,33 +13,34 @@ class Contacts extends React.Component {
   render() {
     const contacts = data.contacts.options;
 
+    const avatarStyle = {
+      backgroundImage: `url(${avatar}`
+    }
     return (
       <section className={styles.wrap} id={this.props.id}>
-        <Title color="yellow">Contacts</Title>
-        <img
-          className={styles.avatar}
-          src={avatar}
-          alt="A headshot of Matteo Carpi"
-          key="headshot"
-        />
-        <section className={styles.contacts}>
-
-
-          <div className={styles.contactDetails}>
-            {contacts.map((contact, index) => {
-              return (
-                <a
-                  href={contact.link}
-                  target={contact.target}
-                  className={styles.contactOption}
-                >
-                  <i class={contact.icon}></i>
-                  <span>{contact.text}</span>
-                </a>
-              );
-            })}
+        <div className={styles.content}>
+          <Title color="yellow">Contacts</Title>
+          <div className={styles.avatar} style= {avatarStyle}>
           </div>
-        </section>
+          <section className={styles.contacts}>
+
+
+            <div className={styles.contactDetails}>
+              {contacts.map((contact, index) => {
+                return (
+                  <a
+                    href={contact.link}
+                    target={contact.target}
+                    className={styles.contactOption}
+                  >
+                    <i class={contact.icon}></i>
+                    <span>{contact.text}</span>
+                  </a>
+                );
+              })}
+            </div>
+          </section>
+        </div>
       </section>
     );
   }
