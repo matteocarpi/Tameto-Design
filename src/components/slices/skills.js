@@ -12,12 +12,14 @@ class Skills extends React.Component {
     const skills = data.skills.skillList;
 
     return (
-      <section id={this.props.id}>
-        <Title className={universal.blue}>Skills</Title>
+      <section
+        className={styles.wrap}
+        id={this.props.id}>
+        <Title color="blue">Skills</Title>
         <section className={styles.skillList}>
           {skills.map((skill, index) => {
             return (
-              <img alt={skill.name + " logo"} key={skill.name} src={skill.icon}/>
+              <img className={styles.skill} alt={skill.name + " logo"} key={skill.name} src={skill.icon}/>
             )
           })}
         </section>

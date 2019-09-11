@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+.wrap {
+  background-color: $yellow;
+}
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .skill {
+    margin: 2rem;
+    width: 40px;
+  }
+}
