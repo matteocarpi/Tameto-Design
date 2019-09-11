@@ -61,7 +61,7 @@ class Header extends React.Component {
               return (
                 <li>
                   <Link onClick={this.closeMenu} smooth to={item.link}>
-                    <span>{firstLetter}</span>
+                    <span className={universal.bold}>{firstLetter}</span>
                     <span>{restOfLabel}</span>
                   </Link>
                 </li>
