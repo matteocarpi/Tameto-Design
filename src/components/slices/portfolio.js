@@ -12,17 +12,19 @@ class Portfolio extends React.Component {
 
     return (
       <section id={this.props.id}>
-        <Title
-          color="yellow"
-          className={universal.yellow}>
+        <Title color="yellow" className={universal.yellow}>
           Portfolio
         </Title>
-        
+
         <section className={styles.projects}>
           {projects.map((project, index) => {
             return (
-              <a href={project.link}>
+              <a
+                 href={project.link}
+                 target="_blank"
+                 >
                 <img
+                  className={styles.projectLogo}
                   src={project.logo}
                   alt={project.name + "logo"}
                   key={project.link}
