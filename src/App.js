@@ -9,6 +9,8 @@ import Footer from './components/fundamentals/footer';
 import Header from './components/fundamentals/header';
 import Homepage from './components/pages/home';
 
+import './assets/css/Universal.module.scss';
+ 
 function App() {
   return (
     <Router>
