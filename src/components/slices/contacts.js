@@ -3,6 +3,7 @@ import React from "react";
 import Title from '../modules/title';
 
 import styles from "../../assets/css/Contacts.module.scss";
+// eslint-disable-next-line
 import universal from "../../assets/css/Universal.module.scss";
 
 import avatar from '../../assets/img/matteo-carpi-avatar.png';

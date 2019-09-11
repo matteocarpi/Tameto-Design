@@ -5,6 +5,7 @@ import classnames from "classnames";
 import styles from "../../assets/css/Header.module.scss";
 import navigation from "../../data/navigation.json";
 
+// eslint-disable-next-line
 import universal from '../../assets/css/Universal.module.scss';
 
 class Header extends React.Component {

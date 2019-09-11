@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Title from '../modules/title';
-
+// eslint-disable-next-line
 import universal from '../../assets/css/Universal.module.scss';
 import styles from '../../assets/css/Skills.module.scss';
 import data from '../../data/home.json';

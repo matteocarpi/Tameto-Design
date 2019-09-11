@@ -1,5 +1,5 @@
 import React from 'react';
-
+// eslint-disable-next-line
 import styles from '../../assets/css/Footer.module.scss';
 
 class Footer extends React.Component {
