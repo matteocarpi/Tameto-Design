@@ -12,7 +12,7 @@ class Skills extends React.Component {
     const skills = data.skills.skillList;
 
     return (
-      <section>
+      <section id={this.props.id}>
         <Title className={universal.blue}>Skills</Title>
         <section className={styles.skillList}>
           {skills.map((skill, index) => {

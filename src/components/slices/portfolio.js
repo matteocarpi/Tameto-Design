@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
     const projects = data.portfolio.projects;
 
     return (
-      <section>
+      <section id={this.props.id}>
         <Title className={universal.yellow}>Portfolio</Title>
         <section className={styles.projects}>
 

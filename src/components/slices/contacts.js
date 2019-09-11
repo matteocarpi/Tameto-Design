@@ -5,6 +5,7 @@ import Title from '../modules/title';
 import styles from "../../assets/css/Contacts.module.scss";
 import universal from "../../assets/css/Universal.module.scss";
 
+import avatar from '../../assets/img/matteo-carpi-avatar.png';
 import data from "../../data/home.json";
 
 class Contacts extends React.Component {
@@ -12,11 +13,11 @@ class Contacts extends React.Component {
     const contacts = data.contacts.options;
 
     return (
-      <section>
+      <section id={this.props.id}>
         <Title className={universal.yellow}>Contacts</Title>
         <section className={styles.contacts}>
           <img
-            src="https://source.unsplash.com/random/1024x1366"
+            src={avatar}
             alt="A headshot of Matteo Carpi"
             key="headshot"
           />
