@@ -41,7 +41,7 @@ class Header extends React.Component {
 
     return (
       <header>
-        <nav className={styles.mobile}>
+        {/* <nav className={styles.mobile}>
           <div
             className={styles.menuButton}
             onClick={this.handleMenuButtonClick}
@@ -68,7 +68,7 @@ class Header extends React.Component {
               );
             })}
           </ul>
-        </nav>
+        </nav> */}
 
         <nav className={styles.desktop}>
           <ul className={styles.desktopMenu}>
