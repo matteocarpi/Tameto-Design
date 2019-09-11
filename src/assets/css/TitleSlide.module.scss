@@ -7,4 +7,10 @@ section.wrap {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  span {
+    display: flex;
+  }
+  * {
+    animation: fadeIn 1s ease-in-out;
+  }
 }

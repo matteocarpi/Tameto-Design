@@ -10,9 +10,31 @@ body {
 .blue {
   color: $blue;
 }
+.blueOutline {
+  color: $yellow;
+  text-shadow:
+   -1px -1px 0 $blue,
+    1px -1px 0 $blue,
+    -1px 1px 0 $blue,
+     1px 1px 0 $blue;
+}
+.yellowOutline {
+  color: $blue;
+  text-shadow:
+   -1px -1px 0 $yellow,
+    1px -1px 0 $yellow,
+    -1px 1px 0 $yellow,
+     1px 1px 0 $yellow;
+}
 .yellow {
   color: $yellow;
 }
 .bold {
   font-weight: 900;
+}
+h1 {
+  font-size: calc(10px + 10vmin);
+}
+.inline {
+  display: flex;
 }
