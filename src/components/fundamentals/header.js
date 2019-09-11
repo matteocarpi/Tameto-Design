@@ -5,6 +5,8 @@ import classnames from "classnames";
 import styles from "../../assets/css/Header.module.scss";
 import navigation from "../../data/navigation.json";
 
+import universal from '../../assets/css/Universal.module.scss';
+
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -58,7 +60,7 @@ class Header extends React.Component {
               return (
                 <li>
                   <Link smooth to={item.link}>
-                    <span>{firstLetter}</span>
+                    <span className={universal.bold}>{firstLetter}</span>
                     <span>{restOfLabel}</span>
                   </Link>
                 </li>

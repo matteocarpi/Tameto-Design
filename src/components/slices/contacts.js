@@ -17,6 +17,7 @@ class Contacts extends React.Component {
         <Title className={universal.yellow}>Contacts</Title>
         <section className={styles.contacts}>
           <img
+            className={styles.avatar}
             src={avatar}
             alt="A headshot of Matteo Carpi"
             key="headshot"
