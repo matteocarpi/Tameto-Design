@@ -18,7 +18,7 @@ header {
     font-size: 30px;
   }
 
-  ul {
+  ul.mobileMenu {
     animation: fadeIn 0.3s ease-in-out;
     width: 100%;
     li{
@@ -33,5 +33,28 @@ header {
         }
       }
     }
+  }
+
+  ul.desktopMenu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto;
+    li{
+      list-style: none;
+      a {
+        color: $blue;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@media (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
   }
 }

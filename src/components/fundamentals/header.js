@@ -79,8 +79,8 @@ class Header extends React.Component {
               return (
                 <li>
                   <Link smooth to={item.link}>
-                    <span>{firstLetter}</span>
-                    <span>{restOfLabel}</span>
+                    <span className={universal.bold}>{firstLetter}</span>
+                    <span className={universal.light}>{restOfLabel}</span>
                   </Link>
                 </li>
               );
