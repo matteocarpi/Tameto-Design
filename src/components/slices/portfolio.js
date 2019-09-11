@@ -11,29 +11,31 @@ class Portfolio extends React.Component {
     const projects = data.portfolio.projects;
 
     return (
-      <section id={this.props.id}>
-        <Title color="yellow" className={universal.yellow}>
-          Portfolio
-        </Title>
+      <section className={styles.wrap} id={this.props.id}>
+        <div className={styles.content}>
+          <Title color="yellow" className={universal.yellow}>
+            Portfolio
+          </Title>
 
-        <section className={styles.projects}>
-          {projects.map((project, index) => {
-            return (
-              <a
-                 href={project.link}
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 >
-                <img
-                  className={styles.projectLogo}
-                  src={project.logo}
-                  alt={project.name + "logo"}
-                  key={project.link}
-                />
-              </a>
-            );
-          })}
-        </section>
+          <section className={styles.projects}>
+            {projects.map((project, index) => {
+              return (
+                <a
+                   href={project.link}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   >
+                  <img
+                    className={styles.projectLogo}
+                    src={project.logo}
+                    alt={project.name + "logo"}
+                    key={project.link}
+                  />
+                </a>
+              );
+            })}
+          </section>
+        </div>
       </section>
     );
   }
