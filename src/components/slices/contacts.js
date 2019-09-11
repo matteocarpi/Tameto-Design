@@ -13,15 +13,16 @@ class Contacts extends React.Component {
     const contacts = data.contacts.options;
 
     return (
-      <section id={this.props.id}>
-        <Title className={universal.yellow}>Contacts</Title>
+      <section className={styles.wrap} id={this.props.id}>
+        <Title color="yellow">Contacts</Title>
+        <img
+          className={styles.avatar}
+          src={avatar}
+          alt="A headshot of Matteo Carpi"
+          key="headshot"
+        />
         <section className={styles.contacts}>
-          <img
-            className={styles.avatar}
-            src={avatar}
-            alt="A headshot of Matteo Carpi"
-            key="headshot"
-          />
+
 
           <div className={styles.contactDetails}>
             {contacts.map((contact, index) => {
@@ -31,11 +32,7 @@ class Contacts extends React.Component {
                   target={contact.target}
                   className={styles.contactOption}
                 >
-                  <img
-                    src={contact.icon}
-                    alt={contact.name + " icon"}
-                    key={contact.name}
-                  />
+                  <i class={contact.icon}></i>
                   <span>{contact.text}</span>
                 </a>
               );
