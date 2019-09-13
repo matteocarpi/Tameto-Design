@@ -17,6 +17,7 @@ class Skills extends React.Component {
         id={this.props.id}>
         <div className={styles.content}>
           <Title color="blue">Skills</Title>
+          <p className={styles.bio}>{data.skills.bio}</p>
           <section className={styles.skillList}>
             {skills.map((skill, index) => {
               return (

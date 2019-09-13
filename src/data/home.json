@@ -23,6 +23,7 @@
   },
   "skills": {
     "title": "Skills",
+    "bio": "I like to put myself in the shoes of the users that will interact with the websites I build. I wonder what they are looking for and where they would look for it. \n\nMy knowledge of design software and development technologies is tailored to satisfy that need in the most efficient way, resulting in fast, minimal, light websites.",
     "skillList": [
       {
         "name": "html",

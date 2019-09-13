@@ -19,6 +19,15 @@
     width: 40px;
   }
 }
+.bio {
+  color: $blue;
+  max-width: 400px;
+  line-height: 1.5;
+  white-space: pre-line;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0 1.5rem;
+}
 @media (min-width: 769px) {
   .content {
     margin-bottom: 3rem;
