@@ -18,6 +18,16 @@
         "name": "Tommaso Cassinis",
         "logo": "/img/projects/tommaso-cassinis.svg",
         "link": "https://www.tommasocassinis.com"
+      },
+      {
+        "name": "Headshot Weddings",
+        "logo": "/img/projects/headshot-weddings.svg",
+        "link": "https://www.headshotweddings.com"
+      },
+      {
+        "name": "Mannebacher Käse",
+        "logo": "/img/projects/mannebacher-käse.svg",
+        "link": "https://www.mannebacherkaese.com"
       }
     ]
   },
