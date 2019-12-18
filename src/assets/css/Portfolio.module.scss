@@ -5,6 +5,10 @@
   .projectLogo {
     width: 150px;
     margin: 2rem;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 .wrap {
