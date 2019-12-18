@@ -4,8 +4,11 @@ import styles from '../../assets/css/Footer.module.scss';
 
 class Footer extends React.Component {
   render () {
+    const date = new Date();
+    const year = date.toISOString().substring(0, 4);
+    console.log(year);
     return (
-      <footer>Copyright©2019 Tameto Design</footer>
+      <footer>Copyright©{year} Tameto Design</footer>
     )
   }
 }
