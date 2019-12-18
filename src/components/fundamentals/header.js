@@ -1,7 +1,6 @@
 import React from "react";
 
 import { NavHashLink as Link } from "react-router-hash-link";
-// import classnames from "classnames";
 import styles from "../../assets/css/Header.module.scss";
 import navigation from "../../data/navigation.json";
 
@@ -27,7 +26,6 @@ class Header extends React.Component {
   };
 
   render() {
-    // const { isMenuOpen } = this.state;
 
     return (
       <header>
