@@ -32,6 +32,7 @@ class Contacts extends React.Component {
                     href={contact.link}
                     target={contact.target}
                     className={styles.contactOption}
+                    key={contact.name}
                   >
                     <i class={contact.icon}></i>
                     <span>{contact.text}</span>
