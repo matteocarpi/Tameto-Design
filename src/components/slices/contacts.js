@@ -34,7 +34,7 @@ class Contacts extends React.Component {
                     className={styles.contactOption}
                     key={contact.name}
                   >
-                    <i class={contact.icon}></i>
+                    <i className={contact.icon}></i>
                     <span>{contact.text}</span>
                   </a>
                 );
