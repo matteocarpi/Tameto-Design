@@ -24,6 +24,7 @@ class Portfolio extends React.Component {
                    href={project.link}
                    target="_blank"
                    rel="noopener noreferrer"
+                   key={project.name}
                    >
                   <img
                     className={styles.projectLogo}
