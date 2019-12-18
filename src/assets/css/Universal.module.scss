@@ -7,6 +7,12 @@ body {
   background-color: $blue;
   margin: 0;
 }
+span, p {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
 .blue {
   color: $blue;
 }
@@ -37,6 +43,10 @@ body {
 }
 h1 {
   font-size: calc(10px + 10vmin);
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 .inline {
   display: flex;

@@ -7,4 +7,8 @@ footer {
   font-size: 12px;
   text-align: center;
   margin-top: 1rem;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
