@@ -38,7 +38,7 @@ class Header extends React.Component {
               const restOfLabel = item.label.substring(1);
 
               return (
-                <li>
+                <li key={item.link}>
                   <Link smooth to={item.link}>
                     <span className={universal.bold}>{firstLetter}</span>
                     <span className={universal.light}>{restOfLabel}</span>
