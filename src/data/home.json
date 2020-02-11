@@ -40,24 +40,24 @@
         "icon": "/img/skills/html.svg"
       },
       {
-        "name": "illustrator",
-        "icon": "/img/skills/illustrator.svg"
+        "name": "css",
+        "icon": "/img/skills/css.svg"
       },
       {
         "name": "js",
         "icon": "/img/skills/js.svg"
       },
       {
-        "name": "css",
-        "icon": "/img/skills/css.svg"
+        "name": "react",
+        "icon": "/img/skills/react.svg"
+      },
+      {
+        "name": "illustrator",
+        "icon": "/img/skills/illustrator.svg"
       },
       {
         "name": "photoshop",
         "icon": "/img/skills/photoshop.svg"
-      },
-      {
-        "name": "react",
-        "icon": "/img/skills/react.svg"
       },
       {
         "name": "sketch",
