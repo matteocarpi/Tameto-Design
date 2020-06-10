@@ -85,9 +85,9 @@
       {
         "name": "email",
         "icon": "far fa-envelope",
-        "text": "matteocarpi94@gmail.com",
+        "text": "matteocarpi@hacari.com",
         "target": "_self",
-        "link": "mailto:matteocarpi94@gmail.com"
+        "link": "mailto:matteocarpi@hacari.com"
       }
     ]
   }
