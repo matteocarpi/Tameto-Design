@@ -9,3 +9,7 @@ steps:
   commands:
   - yarn install
   - yarn build
+
+trigger:
+  branch:
+  - master
