@@ -13,4 +13,7 @@ steps:
 pipeline:
   netlify:
     image: lucap/drone-netlify
-    secrets: [netlify_token, site_id]
+    netlify_token:
+      from-secret: netlify_token
+    site_id:
+      from_secret: site_id
