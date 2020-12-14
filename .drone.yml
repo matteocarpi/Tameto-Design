@@ -3,9 +3,14 @@ kind: pipeline
 type: docker
 name: default
 
-steps: 
-- name: frontend
-  image: node
-  commands:
-  - yarn install
-  - yarn build
+steps:
+  - name: frontend
+    image: node
+    commands:
+      - yarn install
+      - yarn build
+
+pipeline:
+  netlify:
+    image: lucap/drone-netlify
+    secrets: [netlify_token, site_id]
