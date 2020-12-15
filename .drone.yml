@@ -10,10 +10,12 @@ steps:
       - yarn install
       - yarn build
 
-pipeline:
-  netlify:
-    image: lucap/drone-netlify
-    token:
-      from-secret: netlify_token
-    site_id:
-      from_secret: site_id
+  - name: deploy
+    image: node
+    environment:
+      NETLIFY_AUTH_TOKEN:
+        from_secret: NETLIFY_AUTH_TOKEN
+      NETLIFY_SITE_ID:
+        from_secret: NETLIFY_SITE_ID
+    commands:
+      - bash deploy.sh
