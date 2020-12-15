@@ -17,7 +17,7 @@ class Skills extends React.Component {
         id={this.props.id}>
         <div className={styles.content}>
           <Title color="blue">Skills</Title>
-          <p className={styles.bio}>I like to put myself in the shoes of the <strong>users</strong> that will interact with the websites I build. I wonder what they are looking for and where they would look for it. <br/><br/>My <strong>knowledge of design</strong> software and development technologies is tailored to satisfy that need in the most efficient way, resulting in <strong>fast, minimal, light websites</strong>.</p>
+          <p className={styles.bio}>I like toooo put myself in the shoes of the <strong>users</strong> that will interact with the websites I build. I wonder what they are looking for and where they would look for it. <br/><br/>My <strong>knowledge of design</strong> software and development technologies is tailored to satisfy that need in the most efficient way, resulting in <strong>fast, minimal, light websites</strong>.</p>
           <section className={styles.skillList}>
             {skills.map((skill, index) => {
               return (
