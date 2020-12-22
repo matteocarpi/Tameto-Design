@@ -12,7 +12,7 @@ steps:
     settings:
       restore: true
       mount:
-      - ./node_modules
+        - ./node_modules
   - name: rebuild-cache
   image: drillster/drone-volume-cache
   volumes:
@@ -21,7 +21,7 @@ steps:
   settings:
     rebuild: true
     mount:
-    - ./node_modules
+      - ./node_modules
 
   - name: frontend
     image: node
