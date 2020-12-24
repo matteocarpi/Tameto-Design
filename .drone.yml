@@ -10,7 +10,7 @@ steps:
     settings:
       backend: "filesystem"
       restore: true
-      # cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
+      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
       archive_format: "gzip"
       mount:
         - "./node_modules"
@@ -31,17 +31,13 @@ steps:
     settings:
       backend: "filesystem"
       rebuild: true
-      # cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
+      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
       archive_format: "gzip"
       mount:
         - "./node_modules"
     volumes:
       - name: cache
         path: /tmp/cache
-
-volumes:
-  - name: cache
-    temp: {}
 
   - name: deploy
     image: node
@@ -52,3 +48,8 @@ volumes:
         from_secret: NETLIFY_SITE_ID
     commands:
       - bash deploy.sh
+
+volumes:
+  - name: cache
+    temp: {}
+
