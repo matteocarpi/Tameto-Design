@@ -10,7 +10,7 @@ steps:
     settings:
       backend: "filesystem"
       restore: true
-      cache_key: "{{ .Repo.Name }}_{{ checksum 'package.json' }}"
+      # cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
       archive_format: "gzip"
       mount:
         - "./node_modules"
@@ -31,7 +31,7 @@ steps:
     settings:
       backend: "filesystem"
       rebuild: true
-      cache_key: "{{ .Repo.Name }}_{{ checksum 'package.json' }}"
+      # cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
       archive_format: "gzip"
       mount:
         - "./node_modules"
