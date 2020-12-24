@@ -5,29 +5,43 @@ name: default
 
 steps:
   - name: restore-cache
-    image: drillster/drone-volume-cache
-    volumes:
-    - name: cache
-      path: /cache
+    image: meltwater/drone-cache:dev
+    pull: true
     settings:
+      backend: "filesystem"
       restore: true
+      cache_key: "{{ .Repo.Name }}_{{ checksum 'package.json' }}"
+      archive_format: "gzip"
       mount:
-        - ./node_modules
-  - name: rebuild-cache
-  image: drillster/drone-volume-cache
-  volumes:
-  - name: cache
-    path: /cache
-  settings:
-    rebuild: true
-    mount:
-      - ./node_modules
+        - "./node_modules"
+
+    volumes:
+      - name: cache
+        path: /tmp/cache
 
   - name: frontend
     image: node
     commands:
       - yarn install
       - yarn build
+
+  - name: rebuild-cache
+    image: meltwater/drone-cache:dev
+    pull: true
+    settings:
+      backend: "filesystem"
+      rebuild: true
+      cache_key: "{{ .Repo.Name }}_{{ checksum 'package.json' }}"
+      archive_format: "gzip"
+      mount:
+        - "./node_modules"
+    volumes:
+      - name: cache
+        path: /tmp/cache
+
+volumes:
+  - name: cache
+    temp: {}
 
   - name: deploy
     image: node
