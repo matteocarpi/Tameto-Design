@@ -71,4 +71,3 @@ volumes:
   - name: cache
     host:
       path: /var/lib/cache
-
