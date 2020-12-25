@@ -4,7 +4,7 @@ type: docker
 name: default
 
 steps:
-  - name: restore-cache
+  - name: Restore Cache
     image: meltwater/drone-cache:dev
     pull: true
     settings:
@@ -19,13 +19,13 @@ steps:
       - name: cache
         path: /tmp/cache
 
-  - name: frontend
+  - name: Build
     image: node
     commands:
       - yarn install
       - yarn build
 
-  - name: rebuild-cache
+  - name: Rebuild Cache
     image: meltwater/drone-cache:dev
     pull: true
     settings:
@@ -39,7 +39,7 @@ steps:
       - name: cache
         path: /tmp/cache
 
-  - name: deploy
+  - name: Deploy
     image: node
     environment:
       NETLIFY_AUTH_TOKEN:
@@ -48,6 +48,24 @@ steps:
         from_secret: NETLIFY_SITE_ID
     commands:
       - bash deploy.sh
+
+  - name: Notification
+    image: plugins/slack
+    when:
+      status:
+        - success
+        - failure
+    settings:
+      webhook:
+        from_secret: SLACK_TAMETO
+      channel: tameto-builds
+      link_names: true
+      template: >
+        {{#success build.status}}
+          {{repo.name}}: :white_check_mark: Build #{{build.number}} succeeded!
+        {{else}}
+          {{repo.name}} :x: Build #{{build.number}} failed. Fix me please.
+        {{/success}}
 
 volumes:
   - name: cache
