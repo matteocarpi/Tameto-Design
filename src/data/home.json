@@ -5,9 +5,9 @@
     "title": "Portfolio",
     "projects": [
       {
-        "name": "Berlin Shorts",
-        "logo": "/img/projects/berlin-shorts.svg",
-        "link": "https://berlinshorts.netlify.com"
+        "name": "CMB Group",
+        "logo": "/img/projects/cmb.svg",
+        "link": "https://gruppocmb.com"
       },
       {
         "name": "Tommaso Cassinis",
@@ -15,9 +15,9 @@
         "link": "https://www.tommasocassinis.com"
       },
       {
-        "name": "Headshot Weddings",
-        "logo": "/img/projects/headshot-weddings.svg",
-        "link": "https://www.headshotweddings.com"
+        "name": "Angharad Matthews",
+        "logo": "/img/projects/angharad-matthews.svg",
+        "link": "https://www.angharadmatthews.com"
       },
       {
         "name": "Mannebacher Käse",
