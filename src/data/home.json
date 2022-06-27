@@ -5,9 +5,24 @@
     "title": "Portfolio",
     "projects": [
       {
-        "name": "CMB Group",
-        "logo": "/img/projects/cmb.svg",
-        "link": "https://gruppocmb.com"
+        "name": "Toptal",
+        "logo": "/img/projects/toptal.svg",
+        "link": "https://www.toptal.com/resume/matteo-carpi"
+      },
+      {
+        "name": "TrueFoundry",
+        "logo": "/img/projects/truefoundry.svg",
+        "link": "https://truefoundry.com/"
+      },
+      {
+        "name": "Yoop Knows",
+        "logo": "/img/projects/yoopknows.svg",
+        "link": "https://www.yoopknows.io/"
+      },
+      {
+        "name": "Vertrical",
+        "logo": "/img/projects/vertrical.svg",
+        "link": "https://vertrical.com/"
       },
       {
         "name": "Tommaso Cassinis",
@@ -18,11 +33,6 @@
         "name": "Angharad Matthews",
         "logo": "/img/projects/angharad-matthews.svg",
         "link": "https://www.angharadmatthews.com"
-      },
-      {
-        "name": "Mannebacher Käse",
-        "logo": "/img/projects/mannebacher-käse.svg",
-        "link": "https://www.mannebacherkaese.com"
       }
     ]
   },
@@ -43,8 +53,20 @@
         "icon": "/img/skills/js.svg"
       },
       {
+        "name": "typescript",
+        "icon": "/img/skills/typescript.svg"
+      },
+      {
         "name": "react",
         "icon": "/img/skills/react.svg"
+      },
+      {
+        "name": "node",
+        "icon": "/img/skills/node.svg"
+      },
+      {
+        "name": "graphql",
+        "icon": "/img/skills/graphql.svg"
       },
       {
         "name": "illustrator",

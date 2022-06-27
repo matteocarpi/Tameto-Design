@@ -9,8 +9,8 @@ function Homepage() {
   return (
     <div className="container" >
       <TitleSlide />
-      <Portfolio id="portfolio" />
       <Skills id="skills" />
+      <Portfolio id="portfolio" />
       <Contacts id="contacts" />
     </div>
   )
